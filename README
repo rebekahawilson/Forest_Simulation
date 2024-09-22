@@ -1,5 +1,6 @@
 Simulation of forest growth and development using a 2D grid.
 Each cell represents either an empty space, a young tree, a mature tree, or a dead tree.
+It factors in seed dispersal (reproduction from trees).
 
 The simulation updates over time using simple rules: 
     - empty spaces can grow young trees with a certain probability 
@@ -12,6 +13,5 @@ Ideas for expansion / adding more complexity:
 - Add a fire simulation
 - Add tree ageing
 - Add competition for resources
-- Add seed dispersal and reproduction
 - Add more realistic visualisation (textures, shading, etc for different stages of tree-life and environmental factors)
 - Add user interaction element (so user can control different parameters)
